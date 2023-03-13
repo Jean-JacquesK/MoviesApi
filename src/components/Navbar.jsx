@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className='d-flex justify-content-around m-2'>
+    <div className='d-flex justify-content-around'>
       <h1 className='w-100'>
         Movies<span>Corp.</span>
       </h1>

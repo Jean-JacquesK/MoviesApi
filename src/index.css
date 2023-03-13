@@ -1,7 +1,9 @@
-body {
+.App {
   background: linear-gradient(#253136, #467083);
   color: #b8cbd0;
-  height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 span {
