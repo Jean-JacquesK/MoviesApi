@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(#253136, #467083);
+  color: #b8cbd0;
+  height: 100vh;
+}
+
+span {
+  color: rgb(209, 236, 53);
+}
+
+.search-inp {
+  width: 25%;
+  padding: 0.3em;
+}
+
+.icon-box {
+  background-color: #e7ecee;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.3em;
+  width: 2.5em;
+  height: 2.5em;
+  margin: auto;
+}
