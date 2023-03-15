@@ -4,11 +4,16 @@ import Navbar from "./components/Navbar";
 import SearchMovies from "./components/SearchMovies";
 
 function App() {
+  const [dark, setDark] = useState(false);
   const [movies, setMovies] = useState([]);
 
+  function toggleTheme(e) {
+    setDark(!dark);
+  }
+
   return (
-    <div className='App'>
-      <Navbar />
+    <div className={!dark ? "App" : "dark-App"}>
+      <Navbar toggleTheme={toggleTheme} />
       <SearchMovies setMovies={setMovies} />
       <Movies movies={movies} />
     </div>

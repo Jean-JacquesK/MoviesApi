@@ -1,10 +1,10 @@
-function Navbar() {
+function Navbar({ toggleTheme }) {
   return (
     <div className='d-flex justify-content-around'>
       <h1 className='w-100'>
         Movies<span>Corp.</span>
       </h1>
-      <div className='icon-box flex-shrink-1 '>
+      <div className='icon-box flex-shrink-1' onClick={toggleTheme}>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='30'

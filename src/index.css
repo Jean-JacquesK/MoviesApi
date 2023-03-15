@@ -1,6 +1,6 @@
 .App {
-  background: linear-gradient(#253136, #467083);
-  color: #b8cbd0;
+  background: #b8cbd0;
+  color: linear-gradient(#253136, #467083);
   height: 100%;
   margin: 0;
   padding: 0;
@@ -13,15 +13,22 @@ span {
 .search-inp {
   width: 25%;
   padding: 0.3em;
+  border: none;
+  outline: none;
 }
 
 .icon-box {
-  background-color: #e7ecee;
-  color: black;
+  background-color: #467083;
+  color: linear-gradient(#253136, #467083);
   cursor: pointer;
   border-radius: 5px;
   padding: 0.3em;
   width: 2.5em;
   height: 2.5em;
   margin: auto;
+}
+
+.dark-App {
+  background: linear-gradient(#253136, #467083);
+  color: #b8cbd0;
 }
